@@ -1,12 +1,18 @@
-* {
-    background-color: rgb(51, 51, 51) !important;
-    color: rgb(241, 241, 241) !important;
+body {
+  padding: 10px 10px;
 }
 
-a {
-    color: rgb(250, 229, 110) !important;
+button {
+  margin: 10px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgb(18, 136, 214);
+  padding: 5px;
+  color: white;
 }
 
-a:hover {
-    color: rgb(238, 210, 51) !important;
+h4{
+  width: 200px;
+  font-family: 'Yeseva One', cursive;
+  font-size: 1.5em;
 }

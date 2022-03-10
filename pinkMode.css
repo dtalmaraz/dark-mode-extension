@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(241, 183, 210) !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+* {
+    background-color: rgb(241, 183, 210);
+color: rgb(0, 0, 0);
+}
+p {
+    color: rgb(0, 0, 0) !important;
+  }
+nav {
+      color: rgb(0, 0, 0);
+}
+  
+a {
+    color: rgb(143, 4, 124) !important;
+}
+a:hover {
+ color: rgb(102, 6, 89)
+}
+
+a:visited {
+    color: rgb(161, 50, 147)
+   }

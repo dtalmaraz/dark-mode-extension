@@ -1,26 +1,17 @@
-{   "name": "Dark Theme",
-    "description": "This extension turns the page to a 'Dark Theme'.",
+{   "name": "Dark Mode",
     "version": "1.0",
-    "manifest_version": 3,
+    "manifest_version": 2,
 
+    "description": "This extension turns the page to a 'Dark Theme'.",
+    "permissions": [ "http://*/*", "https://*/*"],
     "icons": {
         "16": "/icons/16.png"
     },
 
-    "action":{
-        "default_popup": "popup.html",
-        "default_icon": {
-            "16": "/icons/16.png"
-        }
-    },
+    "browser_action":{
+    "default_popup": "popup.html",
+    "default_title": "Change background to dark mode",
+    "default_icon": "/icons/16.png"
+    }
 
-    "permissions": [
-        "storage",
-        "activeTab",
-        "scripting",
-        "tabs"
-    ],
-    "host_permissions": [
-        "https://www.google.com/*"
-    ]
 }

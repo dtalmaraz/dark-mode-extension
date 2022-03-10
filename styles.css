@@ -1,0 +1,12 @@
+* {
+    background-color: rgb(51, 51, 51) !important;
+    color: rgb(241, 241, 241) !important;
+}
+
+a {
+    color: rgb(250, 229, 110) !important;
+}
+
+a:hover {
+    color: rgb(238, 210, 51) !important;
+}

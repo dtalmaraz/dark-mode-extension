@@ -1,0 +1,26 @@
+{   "name": "Dark Theme",
+    "description": "This extension turns the page to a 'Dark Theme'.",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "icons": {
+        "16": "/icons/16.png"
+    },
+
+    "action":{
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/icons/16.png"
+        }
+    },
+
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting",
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://www.google.com/*"
+    ]
+}
